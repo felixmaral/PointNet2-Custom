@@ -1,0 +1,9 @@
+torch>=2.0.0
+numpy
+scipy
+pyyaml
+tensorboard
+wandb
+matplotlib
+open3d
+scikit-learn

@@ -1,0 +1,17 @@
+data:
+  train_points: "/Users/felixmaral/Desktop/PointNet-/data/Shapenetcore_benchmark/04225987/points/"
+  train_labels: "/Users/felixmaral/Desktop/PointNet-/data/Shapenetcore_benchmark/04225987/points_label/"
+  split:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+
+training:
+  num_points: 4096
+  batch_size: 8
+  learning_rate: 0.0005
+  epochs: 5
+  log_dir: "runs/pointnet2"
+  use_wandb: true
+  
+experiment_name: "pointnet2-segmentation"

@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+models/*.pt
+models/*.pth
+models/*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Output
+*.out
+
+# Configuration
+*.yaml~
+*.json~
+
+# WandB artifacts
+wandb/
+wandb-debug.log
+
+# DVC cache (if using DVC)
+.dvc/
+*.dvc
+.cache/
+*.dat
+
+# VSCode and other editors
+.vscode/
+.idea/
+
+# Docker
+*.dockerfile
+Dockerfile
+*.tar
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data files
+data/*
+!data/.gitkeep
+
+# WandB files
+wandb/*
+!wandb/.gitkeep
+
+# Runs
+runs/*
+!runs/.gitkeep
+
+# Environment variables
+.env
